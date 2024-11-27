@@ -1,6 +1,6 @@
 {
   "name": "money-to-text-vn",
-  "version": "1.0.0",
+  "version": "1.0.0a",
   "description": "Convert money to text Vietnamese",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
