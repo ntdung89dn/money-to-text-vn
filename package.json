@@ -1,0 +1,32 @@
+{
+  "name": "money-to-text-vn",
+  "version": "1.0.0",
+  "description": "Convert money to text Vietnamese",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest --watchAll",
+    "test-cov": "jest --coverage"
+  },
+  "keywords": [
+    "Vietnamese",
+    "convert",
+    "money",
+    "to",
+    "text"
+  ],
+  "author": "ntdung89dn@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
